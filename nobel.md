@@ -1,9 +1,9 @@
 ### nobel
- _yr_  |   _subject_  | _winner_<br/>
-1960 | Chemistry  | Willard F. Libby<br/>
-1960 | Literature | Saint-John Perse<br/>
-1960 | Medicine   | Sir Frank Macfarlane Burnet<br/>
-1960 | Medicine   | Peter Madawar<br/>
+` yr  |   subject  | winner`<br/>
+`1960 | Chemistry  | Willard F. Libby`<br/>
+`1960 | Literature | Saint-John Perse`<br/>
+`1960 | Medicine   | Sir Frank Macfarlane Burnet`<br/>
+`1960 | Medicine   | Peter Madawar`<br/>
 
 1. Change the query shown so that it displays Nobel prizes for 1950.
 * `SELECT yr, subject, winner FROM nobel WHERE yr = 1950`
